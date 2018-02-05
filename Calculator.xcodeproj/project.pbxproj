@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		825F29F01F967EBA00D1029C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 825F29EF1F967EBA00D1029C /* main.cpp */; };
+		822A402B1EBE997300624B17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822A402A1EBE997300624B17 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		825F29EA1F967EBA00D1029C /* CopyFiles */ = {
+		822A40251EBE997300624B17 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		825F29EC1F967EBA00D1029C /* Bank Account */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bank Account"; sourceTree = BUILT_PRODUCTS_DIR; };
-		825F29EF1F967EBA00D1029C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		822A40271EBE997300624B17 /* Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		822A402A1EBE997300624B17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		825F29E91F967EBA00D1029C /* Frameworks */ = {
+		822A40241EBE997300624B17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,100 +38,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		825F29E31F967EBA00D1029C = {
+		822A401E1EBE997300624B17 = {
 			isa = PBXGroup;
 			children = (
-				825F29EE1F967EBA00D1029C /* Bank Account */,
-				825F29ED1F967EBA00D1029C /* Products */,
+				822A40291EBE997300624B17 /* Calculator */,
+				822A40281EBE997300624B17 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		825F29ED1F967EBA00D1029C /* Products */ = {
+		822A40281EBE997300624B17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				825F29EC1F967EBA00D1029C /* Bank Account */,
+				822A40271EBE997300624B17 /* Calculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		825F29EE1F967EBA00D1029C /* Bank Account */ = {
+		822A40291EBE997300624B17 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				825F29EF1F967EBA00D1029C /* main.cpp */,
+				822A402A1EBE997300624B17 /* main.cpp */,
 			);
-			path = "Bank Account";
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		825F29EB1F967EBA00D1029C /* Bank Account */ = {
+		822A40261EBE997300624B17 /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 825F29F31F967EBA00D1029C /* Build configuration list for PBXNativeTarget "Bank Account" */;
+			buildConfigurationList = 822A402E1EBE997300624B17 /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
-				825F29E81F967EBA00D1029C /* Sources */,
-				825F29E91F967EBA00D1029C /* Frameworks */,
-				825F29EA1F967EBA00D1029C /* CopyFiles */,
+				822A40231EBE997300624B17 /* Sources */,
+				822A40241EBE997300624B17 /* Frameworks */,
+				822A40251EBE997300624B17 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Bank Account";
-			productName = "Bank Account";
-			productReference = 825F29EC1F967EBA00D1029C /* Bank Account */;
+			name = Calculator;
+			productName = Calculator;
+			productReference = 822A40271EBE997300624B17 /* Calculator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		825F29E41F967EBA00D1029C /* Project object */ = {
+		822A401F1EBE997300624B17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jakob Fletcher";
 				TargetAttributes = {
-					825F29EB1F967EBA00D1029C = {
-						CreatedOnToolsVersion = 8.3.2;
+					822A40261EBE997300624B17 = {
+						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 825F29E71F967EBA00D1029C /* Build configuration list for PBXProject "Bank Account" */;
+			buildConfigurationList = 822A40221EBE997300624B17 /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 825F29E31F967EBA00D1029C;
-			productRefGroup = 825F29ED1F967EBA00D1029C /* Products */;
+			mainGroup = 822A401E1EBE997300624B17;
+			productRefGroup = 822A40281EBE997300624B17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				825F29EB1F967EBA00D1029C /* Bank Account */,
+				822A40261EBE997300624B17 /* Calculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		825F29E81F967EBA00D1029C /* Sources */ = {
+		822A40231EBE997300624B17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825F29F01F967EBA00D1029C /* main.cpp in Sources */,
+				822A402B1EBE997300624B17 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		825F29F11F967EBA00D1029C /* Debug */ = {
+		822A402C1EBE997300624B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -145,7 +144,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -174,12 +173,11 @@
 			};
 			name = Debug;
 		};
-		825F29F21F967EBA00D1029C /* Release */ = {
+		822A402D1EBE997300624B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -193,7 +191,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -215,14 +213,14 @@
 			};
 			name = Release;
 		};
-		825F29F41F967EBA00D1029C /* Debug */ = {
+		822A402F1EBE997300624B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		825F29F51F967EBA00D1029C /* Release */ = {
+		822A40301EBE997300624B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -232,24 +230,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		825F29E71F967EBA00D1029C /* Build configuration list for PBXProject "Bank Account" */ = {
+		822A40221EBE997300624B17 /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				825F29F11F967EBA00D1029C /* Debug */,
-				825F29F21F967EBA00D1029C /* Release */,
+				822A402C1EBE997300624B17 /* Debug */,
+				822A402D1EBE997300624B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		825F29F31F967EBA00D1029C /* Build configuration list for PBXNativeTarget "Bank Account" */ = {
+		822A402E1EBE997300624B17 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				825F29F41F967EBA00D1029C /* Debug */,
-				825F29F51F967EBA00D1029C /* Release */,
+				822A402F1EBE997300624B17 /* Debug */,
+				822A40301EBE997300624B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 825F29E41F967EBA00D1029C /* Project object */;
+	rootObject = 822A401F1EBE997300624B17 /* Project object */;
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "825F29EB1F967EBA00D1029C"
-               BuildableName = "Bank Account"
-               BlueprintName = "Bank Account"
-               ReferencedContainer = "container:Bank Account.xcodeproj">
+               BlueprintIdentifier = "822A40261EBE997300624B17"
+               BuildableName = "Calculator"
+               BlueprintName = "Calculator"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "825F29EB1F967EBA00D1029C"
-            BuildableName = "Bank Account"
-            BlueprintName = "Bank Account"
-            ReferencedContainer = "container:Bank Account.xcodeproj">
+            BlueprintIdentifier = "822A40261EBE997300624B17"
+            BuildableName = "Calculator"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "825F29EB1F967EBA00D1029C"
-            BuildableName = "Bank Account"
-            BlueprintName = "Bank Account"
-            ReferencedContainer = "container:Bank Account.xcodeproj">
+            BlueprintIdentifier = "822A40261EBE997300624B17"
+            BuildableName = "Calculator"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "825F29EB1F967EBA00D1029C"
-            BuildableName = "Bank Account"
-            BlueprintName = "Bank Account"
-            ReferencedContainer = "container:Bank Account.xcodeproj">
+            BlueprintIdentifier = "822A40261EBE997300624B17"
+            BuildableName = "Calculator"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
